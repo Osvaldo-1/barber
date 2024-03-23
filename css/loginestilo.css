@@ -89,3 +89,39 @@ body{
     color: #5D6D7E;
     text-decoration: none;
 }
+
+/* Funcion responsiva */
+
+/* Pantallas pequeñas */
+@media only screen and (max-width: 600px){
+    .container{
+        width: 350px;
+    }
+
+    .form-container{
+        display: flex;
+        position: absolute;
+        width: 230px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .links-container p{
+        font-size: 0.8rem;
+    }
+
+    .links-container a{
+        font-size: 0.8rem;
+        color: #5D6D7E;
+        text-decoration: none;
+    }
+}
+
+/* Pantallas medianas */
+@media only screen and (min-width: 601px) and (max-width: 992px){
+    .container{
+        width: 420px;
+    }
+}
